@@ -1,0 +1,36 @@
+
+.btn-primary{
+    background-color: #D2006E;
+    width: auto;
+    height: 40px;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #BD0063;
+}
+
+.btn-primary:focus{
+    background-color: #D2006E;
+    outline-color: #7E0042;
+    outline-width: 2px;
+}
+
+.btn-primary:active{
+    background-color: #93004D;
+    outline: none;
+}
+
+.btn-primary:disabled{
+    background-color: #F9F9F9;
+    outline: none;
+    color: #D0D0D0;
+}
+
+::ng-deep .mat-mdc-button{
+    color:  white !important;
+}
